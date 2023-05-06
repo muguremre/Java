@@ -8,6 +8,9 @@ public class Araba {
     private int beygirGucu;
     private int hiz;
     private int vites;
+    private int fiyat;
+    private int motorHacmi;
+    private int motorGucu;
 
     public void setMarka(String marka) {
         this.marka = marka;
@@ -102,6 +105,25 @@ public class Araba {
             System.out.println("Vites değeri geçerli.");
         return vites;
     }
+    public void setFiyat(int fiyat) {
+        this.fiyat = fiyat;
+    }
+    public int getFiyat() {
+        return fiyat;
+    }
+    public void setMotorHacmi(int motorHacmi) {
+        this.motorHacmi = motorHacmi;
+    }
+    public int getMotorHacmi() {
+        return motorHacmi;
+    }
+    public void setMotorGucu(int motorGucu) {
+        this.motorGucu = motorGucu;
+    }
+    public int getMotorGucu() {
+        return motorGucu;
+    }
+    
 
     
 }
